@@ -1,0 +1,30 @@
+function test() {
+    do stuff
+}
+function test2() {
+
+}
+
+setTimeout(function() { test(); }, 300);
+test2;
+
+(function(){
+
+             function delay() {
+                return new Promise(resolve => setTimeout(resolve, 300));
+                }
+                async function delayedLog(item) {
+                    await delay();
+                    console.log(item);
+                    path = item;
+                    return path;
+                }
+                async function processArray(array) {
+                    for (const item of array) {
+                        await delayedLog(item);
+                    }
+                    console.log('Done!');
+                }
+                processArray(['./x.json', './y.json', './z.json', 'null.json']);
+})();
+

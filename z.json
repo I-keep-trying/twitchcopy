@@ -1,0 +1,61 @@
+{
+    "stream": {
+        "_id": 27083186592,
+        "game": "Retro",
+        "viewers": 448,
+        "video_height": 720,
+        "average_fps": 60,
+        "delay": 0,
+        "created_at": "2017-12-26T18:29:27Z",
+        "is_playlist": false,
+        "stream_type": "live",
+        "preview": {
+            "small": "https://static-cdn.jtvnw.net/previews-ttv/live_user_themexicanrunner-80x45.jpg",
+            "medium": "https://static-cdn.jtvnw.net/previews-ttv/live_user_themexicanrunner-320x180.jpg",
+            "large": "https://static-cdn.jtvnw.net/previews-ttv/live_user_themexicanrunner-640x360.jpg",
+            "template": "https://static-cdn.jtvnw.net/previews-ttv/live_user_themexicanrunner-{width}x{height}.jpg"
+        },
+        "channel": {
+            "mature": false,
+            "partner": true,
+            "status": "AGDQ Fundraiser - !request Games",
+            "broadcaster_language": "en",
+            "display_name": "TheMexicanRunner",
+            "game": "Retro",
+            "language": "en",
+            "_id": 38970506,
+            "name": "themexicanrunner",
+            "created_at": "2013-01-02T16:38:46Z",
+            "updated_at": "2017-12-26T19:05:36Z",
+            "delay": null,
+            "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/themexicanrunner-profile_image-ddebad8299ab2d41-300x300.png",
+            "banner": null,
+            "video_banner": "https://static-cdn.jtvnw.net/jtv_user_pictures/themexicanrunner-channel_offline_image-3cb451aabe86940a-1920x1080.jpeg",
+            "background": null,
+            "profile_banner": "https://static-cdn.jtvnw.net/jtv_user_pictures/themexicanrunner-profile_banner-d7fa99ce08b3f228-480.png",
+            "profile_banner_background_color": "",
+            "url": "https://www.twitch.tv/themexicanrunner",
+            "views": 6085386,
+            "followers": 81624,
+            "_links": {
+                "self": "https://api.twitch.tv/kraken/channels/themexicanrunner",
+                "follows": "https://api.twitch.tv/kraken/channels/themexicanrunner/follows",
+                "commercial": "https://api.twitch.tv/kraken/channels/themexicanrunner/commercial",
+                "stream_key": "https://api.twitch.tv/kraken/channels/themexicanrunner/stream_key",
+                "chat": "https://api.twitch.tv/kraken/chat/themexicanrunner",
+                "features": "https://api.twitch.tv/kraken/channels/themexicanrunner/features",
+                "subscriptions": "https://api.twitch.tv/kraken/channels/themexicanrunner/subscriptions",
+                "editors": "https://api.twitch.tv/kraken/channels/themexicanrunner/editors",
+                "teams": "https://api.twitch.tv/kraken/channels/themexicanrunner/teams",
+                "videos": "https://api.twitch.tv/kraken/channels/themexicanrunner/videos"
+            }
+        },
+        "_links": {
+            "self": "https://api.twitch.tv/kraken/streams/themexicanrunner"
+        }
+    },
+    "_links": {
+        "self": "https://api.twitch.tv/kraken/streams/themexicanrunner",
+        "channel": "https://api.twitch.tv/kraken/channels/themexicanrunner"
+    }
+}
