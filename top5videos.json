@@ -1,0 +1,226 @@
+{
+    "_links": {
+        "self": "https://api.twitch.tv/kraken/videos/top?broadcast_type=highlight\u0026language=en\u0026limit=5\u0026sort=time",
+        "next": "https://api.twitch.tv/kraken/videos/top?broadcast_type=highlight\u0026language=en\u0026limit=5\u0026offset=5\u0026sort=time"
+    },
+    "videos": [
+        {
+            "title": "DRUMS | Pearl Jam - Do The Evolution | 1st Playthrough",
+            "description": "",
+            "description_html": "",
+            "broadcast_id": 27121857472,
+            "broadcast_type": "highlight",
+            "status": "recorded",
+            "language": "en",
+            "tag_list": "Do The Evolution, Drums, Papupapu, PapupapuDelgado, Pearl Jam",
+            "views": 0,
+            "created_at": "2017-12-30T22:51:46Z",
+            "published_at": "2017-12-30T22:51:46Z",
+            "url": "https://www.twitch.tv/videos/213968337",
+            "_id": "v213968337",
+            "recorded_at": "2017-12-30T20:44:22Z",
+            "game": "Music",
+            "length": 250,
+            "preview": "https://static-cdn.jtvnw.net/s3_vods/e0bc7f21999a1835950a_papupapudelgado_27121857472_763786262//thumb/thumb213968337-320x240.jpg",
+            "animated_preview_url": "https://vod-storyboards.twitch.tv/e0bc7f21999a1835950a_papupapudelgado_27121857472_763786262/storyboards/213968337-strip-0.jpg",
+            "thumbnails": [
+                {
+                    "type": "generated",
+                    "url": "https://static-cdn.jtvnw.net/s3_vods/e0bc7f21999a1835950a_papupapudelgado_27121857472_763786262//thumb/thumb213968337-320x240.jpg"
+                }
+            ],
+            "fps": {
+                "160p30": 30.000005971101068,
+                "360p30": 30.000005971101068,
+                "480p30": 30.000005971101068,
+                "720p30": 30.000005971101068,
+                "chunked": 30.00006226857734
+            },
+            "resolutions": {
+                "160p30": "284x160",
+                "360p30": "640x360",
+                "480p30": "852x480",
+                "720p30": "1280x720",
+                "chunked": "1280x720"
+            },
+            "channel": {
+                "name": "papupapudelgado",
+                "display_name": "PapupapuDelgado"
+            },
+            "_links": {
+                "self": "https://api.twitch.tv/kraken/videos/v213968337",
+                "channel": "https://api.twitch.tv/kraken/channels/papupapudelgado"
+            }
+        },
+        {
+            "title": "swivel showcase.",
+            "description": "",
+            "description_html": "",
+            "broadcast_id": 27123814288,
+            "broadcast_type": "highlight",
+            "status": "recorded",
+            "language": "en",
+            "tag_list": "",
+            "views": 0,
+            "created_at": "2017-12-30T22:51:21Z",
+            "published_at": "2017-12-30T22:51:21Z",
+            "url": "https://www.twitch.tv/videos/213968227",
+            "_id": "v213968227",
+            "recorded_at": "2017-12-30T22:32:28Z",
+            "game": "Pavlov VR",
+            "length": 865,
+            "preview": "https://static-cdn.jtvnw.net/s3_vods/2db359bbba35e8efb6cc_chronobodi_27123814288_763908563//thumb/thumb213968227-320x240.jpg",
+            "animated_preview_url": "https://vod-storyboards.twitch.tv/2db359bbba35e8efb6cc_chronobodi_27123814288_763908563/storyboards/213968227-strip-0.jpg",
+            "thumbnails": [
+                {
+                    "type": "generated",
+                    "url": "https://static-cdn.jtvnw.net/s3_vods/2db359bbba35e8efb6cc_chronobodi_27123814288_763908563//thumb/thumb213968227-320x240.jpg"
+                }
+            ],
+            "fps": {
+                "chunked": 60.000917564627294
+            },
+            "resolutions": {
+                "chunked": "1920x1080"
+            },
+            "channel": {
+                "name": "chronobodi",
+                "display_name": "chronobodi"
+            },
+            "_links": {
+                "self": "https://api.twitch.tv/kraken/videos/v213968227",
+                "channel": "https://api.twitch.tv/kraken/channels/chronobodi"
+            }
+        },
+        {
+            "title": "117 - Coin Concede: ”Numba Wan(17) with Asmodai”",
+            "description": "In Episode 117 Kenny, RidiculousHat, and Botticus have Asmodai on as a guest and talk about his Hearthstone insights. News is short this week with the announcement of free packs for the quest bug later in January, and further explanation of Pro Teams and playoffs for HCT. The recap of tournament is shorter this week as well covering a high-level recap of the HS Invitational run by Blizzard Esports Taiwan, and some insight on the meta composition. To cap the episode off, we’re taking another round with Raza Priest with it’s slight alterations and how it’s performing in the current meta. ",
+            "description_html": "In Episode 117 Kenny, RidiculousHat, and Botticus have Asmodai on as a guest and talk about his Hearthstone insights. News is short this week with the announcement of free packs for the quest bug later in January, and further explanation of Pro Teams and playoffs for HCT. The recap of tournament is shorter this week as well covering a high-level recap of the HS Invitational run by Blizzard Esports Taiwan, and some insight on the meta composition. To cap the episode off, we’re taking another round with Raza Priest with it’s slight alterations and how it’s performing in the current meta.\u003cbr\u003e",
+            "broadcast_id": 27095525568,
+            "broadcast_type": "highlight",
+            "status": "recorded",
+            "language": "en",
+            "tag_list": "Adventure, All-Star Invitational, Arena, Asmodai, Card Backs, Coin Concede, Competitive, CosplayGrill, Deck, Decks, Dungeon Run, Grand Tournament, Hearthstone, K\u0026C, Kobalds and Catacombs, Legend, Legendary, Meta, Podcast, Raza Priest, Tavern Brawl, deck building, eSport",
+            "views": 0,
+            "created_at": "2017-12-30T22:51:13Z",
+            "published_at": "2017-12-30T22:51:13Z",
+            "url": "https://www.twitch.tv/videos/213968194",
+            "_id": "v213968194",
+            "recorded_at": "2017-12-28T00:41:10Z",
+            "game": "Hearthstone",
+            "length": 6189,
+            "preview": "https://static-cdn.jtvnw.net/s3_vods/242020c055df628ef7bd_coinconcedepodcast_27095525568_762140518/thumb/custom246b8c4c54b13b87-320x240.png",
+            "animated_preview_url": "https://vod-storyboards.twitch.tv/242020c055df628ef7bd_coinconcedepodcast_27095525568_762140518/storyboards/213968194-strip-0.jpg",
+            "thumbnails": [
+                {
+                    "type": "custom",
+                    "url": "https://static-cdn.jtvnw.net/s3_vods/242020c055df628ef7bd_coinconcedepodcast_27095525568_762140518/thumb/custom246b8c4c54b13b87-320x240.png"
+                },
+                {
+                    "type": "generated",
+                    "url": "https://static-cdn.jtvnw.net/s3_vods/242020c055df628ef7bd_coinconcedepodcast_27095525568_762140518//thumb/thumb213968194-320x240.jpg"
+                }
+            ],
+            "fps": {
+                "160p30": 29.91330698829199,
+                "360p30": 29.91330698829199,
+                "480p30": 29.91330698829199,
+                "720p30": 29.91330698829199,
+                "chunked": 29.912859293893355
+            },
+            "resolutions": {
+                "160p30": "284x160",
+                "360p30": "640x360",
+                "480p30": "852x480",
+                "720p30": "1280x720",
+                "chunked": "1280x720"
+            },
+            "channel": {
+                "name": "coinconcedepodcast",
+                "display_name": "Coinconcedepodcast"
+            },
+            "_links": {
+                "self": "https://api.twitch.tv/kraken/videos/v213968194",
+                "channel": "https://api.twitch.tv/kraken/channels/coinconcedepodcast"
+            }
+        },
+        {
+            "title": "Fortnite Fails #2",
+            "description": "Short video taken from one game, first I fail hardcore  at a siege of the enemy base then a brave little toaster has a fail moment as well to my intended target.",
+            "description_html": "Short video taken from one game, first I fail hardcore  at a siege of the enemy base then a brave little toaster has a fail moment as well to my intended target.\u003cbr\u003e",
+            "broadcast_id": 27123602592,
+            "broadcast_type": "highlight",
+            "status": "recorded",
+            "language": "en",
+            "tag_list": "Funny, battle, bush, camping, fortnite, haha, royale, strategy, trap",
+            "views": 0,
+            "created_at": "2017-12-30T22:51:13Z",
+            "published_at": "2017-12-30T22:51:13Z",
+            "url": "https://www.twitch.tv/videos/213968192",
+            "_id": "v213968192",
+            "recorded_at": "2017-12-30T22:37:15Z",
+            "game": "Fortnite Battle Royale",
+            "length": 354,
+            "preview": "https://static-cdn.jtvnw.net/s3_vods/17111b9da28cd359b3b3_d2ndamendmentgaming_27123602592_763895332//thumb/thumb213968192-320x240.jpg",
+            "animated_preview_url": "https://vod-storyboards.twitch.tv/17111b9da28cd359b3b3_d2ndamendmentgaming_27123602592_763895332/storyboards/213968192-strip-0.jpg",
+            "thumbnails": [
+                {
+                    "type": "generated",
+                    "url": "https://static-cdn.jtvnw.net/s3_vods/17111b9da28cd359b3b3_d2ndamendmentgaming_27123602592_763895332//thumb/thumb213968192-320x240.jpg"
+                }
+            ],
+            "fps": {},
+            "resolutions": {
+                "chunked": "1280x720"
+            },
+            "channel": {
+                "name": "d2ndamendmentgaming",
+                "display_name": "D2NDAMENDMENTGAMING"
+            },
+            "_links": {
+                "self": "https://api.twitch.tv/kraken/videos/v213968192",
+                "channel": "https://api.twitch.tv/kraken/channels/d2ndamendmentgaming"
+            }
+        },
+        {
+            "title": "Overwatch Christmas Eve Stream",
+            "description": "",
+            "description_html": "",
+            "broadcast_id": 27067422320,
+            "broadcast_type": "highlight",
+            "status": "recorded",
+            "language": "en",
+            "tag_list": "Christmas, Gaming, Overwatch, Xbox One",
+            "views": 0,
+            "created_at": "2017-12-30T22:51:07Z",
+            "published_at": "2017-12-30T22:51:07Z",
+            "url": "https://www.twitch.tv/videos/213968167",
+            "_id": "v213968167",
+            "recorded_at": "2017-12-24T18:11:14Z",
+            "game": "Overwatch",
+            "length": 7236,
+            "preview": "https://static-cdn.jtvnw.net/s3_vods/e4eb883013eaccdce92d_d3ath_bl0220m_27067422320_760384065//thumb/thumb213968167-320x240.jpg",
+            "animated_preview_url": "https://vod-storyboards.twitch.tv/e4eb883013eaccdce92d_d3ath_bl0220m_27067422320_760384065/storyboards/213968167-strip-0.jpg",
+            "thumbnails": [
+                {
+                    "type": "generated",
+                    "url": "https://static-cdn.jtvnw.net/s3_vods/e4eb883013eaccdce92d_d3ath_bl0220m_27067422320_760384065//thumb/thumb213968167-320x240.jpg"
+                }
+            ],
+            "fps": {
+                "chunked": 29.947372552141026
+            },
+            "resolutions": {
+                "chunked": "848x480"
+            },
+            "channel": {
+                "name": "d3ath_bl0220m",
+                "display_name": "d3ath_bl0220m"
+            },
+            "_links": {
+                "self": "https://api.twitch.tv/kraken/videos/v213968167",
+                "channel": "https://api.twitch.tv/kraken/channels/d3ath_bl0220m"
+            }
+        }
+    ]
+}

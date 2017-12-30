@@ -1,0 +1,224 @@
+{
+    "_links": {
+        "self": "https://api.twitch.tv/kraken/videos/top?broadcast_type=highlight\u0026language=en\u0026limit=5\u0026sort=time",
+        "next": "https://api.twitch.tv/kraken/videos/top?broadcast_type=highlight\u0026language=en\u0026limit=5\u0026offset=5\u0026sort=time"
+    },
+    "videos": [
+        {
+            "title": "Billions vs Mega City!",
+            "description": "HORDES DETECTED OUTSIDE THE WALLS OF CALDARIUS! WILL THEY SURVIVE?",
+            "description_html": "HORDES DETECTED OUTSIDE THE WALLS OF CALDARIUS! WILL THEY SURVIVE?\u003cbr\u003e",
+            "broadcast_id": 27121211568,
+            "broadcast_type": "highlight",
+            "status": "recorded",
+            "language": "en",
+            "tag_list": "Hordes, doom., funny",
+            "views": 0,
+            "created_at": "2017-12-30T22:50:40Z",
+            "published_at": "2017-12-30T22:50:40Z",
+            "url": "https://www.twitch.tv/videos/213968062",
+            "_id": "v213968062",
+            "recorded_at": "2017-12-30T18:30:11Z",
+            "game": "They Are Billions",
+            "length": 12696,
+            "preview": "https://static-cdn.jtvnw.net/s3_vods/7cc294aa5e24eafc6f4e_holyacucmarine_27121211568_763745893//thumb/thumb213968062-320x240.jpg",
+            "animated_preview_url": "https://vod-storyboards.twitch.tv/7cc294aa5e24eafc6f4e_holyacucmarine_27121211568_763745893/storyboards/213968062-strip-0.jpg",
+            "thumbnails": [
+                {
+                    "type": "generated",
+                    "url": "https://static-cdn.jtvnw.net/s3_vods/7cc294aa5e24eafc6f4e_holyacucmarine_27121211568_763745893//thumb/thumb213968062-320x240.jpg"
+                }
+            ],
+            "fps": {
+                "chunked": 28.547411442281845
+            },
+            "resolutions": {
+                "chunked": "1280x720"
+            },
+            "channel": {
+                "name": "holyacucmarine",
+                "display_name": "Holyacucmarine"
+            },
+            "_links": {
+                "self": "https://api.twitch.tv/kraken/videos/v213968062",
+                "channel": "https://api.twitch.tv/kraken/channels/holyacucmarine"
+            }
+        },
+        {
+            "title": "New Edorahn, Part 43: Acroppa",
+            "description": "ongoing work at the necropolis of acroppa",
+            "description_html": "ongoing work at the necropolis of acroppa\u003cbr\u003e",
+            "broadcast_id": 27094723552,
+            "broadcast_type": "highlight",
+            "status": "recorded",
+            "language": "en",
+            "tag_list": "build, creative, empire, minecraft, mittenrahm, salvestrom",
+            "views": 0,
+            "created_at": "2017-12-30T22:50:37Z",
+            "published_at": "2017-12-30T22:50:37Z",
+            "url": "https://www.twitch.tv/videos/213968046",
+            "_id": "v213968046",
+            "recorded_at": "2017-12-27T22:55:17Z",
+            "game": "Minecraft",
+            "length": 681,
+            "preview": "https://static-cdn.jtvnw.net/s3_vods/0b0696164e342a6511f7_salvestrom_27094723552_762090392//thumb/thumb213968046-320x240.jpg",
+            "animated_preview_url": "https://vod-storyboards.twitch.tv/0b0696164e342a6511f7_salvestrom_27094723552_762090392/storyboards/213968046-strip-0.jpg",
+            "thumbnails": [
+                {
+                    "type": "generated",
+                    "url": "https://static-cdn.jtvnw.net/s3_vods/0b0696164e342a6511f7_salvestrom_27094723552_762090392//thumb/thumb213968046-320x240.jpg"
+                }
+            ],
+            "fps": {
+                "chunked": 29.830942487920588
+            },
+            "resolutions": {
+                "chunked": "1536x864"
+            },
+            "channel": {
+                "name": "salvestrom",
+                "display_name": "salvestrom"
+            },
+            "_links": {
+                "self": "https://api.twitch.tv/kraken/videos/v213968046",
+                "channel": "https://api.twitch.tv/kraken/channels/salvestrom"
+            }
+        },
+        {
+            "title": "12/29/2017 Stream ~ DATE NIGHT",
+            "description": "Game: We Were Here",
+            "description_html": "Game: We Were Here\u003cbr\u003e",
+            "broadcast_id": 27115152608,
+            "broadcast_type": "highlight",
+            "status": "recorded",
+            "language": "en",
+            "tag_list": "castle, co-op, evil, gamercouples, horror, partners, puzzle, snow, strategy, survival, we were here",
+            "views": 0,
+            "created_at": "2017-12-30T22:47:52Z",
+            "published_at": "2017-12-30T22:47:52Z",
+            "url": "https://www.twitch.tv/videos/213967334",
+            "_id": "v213967334",
+            "recorded_at": "2017-12-30T00:57:39Z",
+            "game": "Games + Demos",
+            "length": 8594,
+            "preview": "https://static-cdn.jtvnw.net/s3_vods/4d41b7e1c509529175fa_hi_im_rav_27115152608_763367208//thumb/thumb213967334-320x240.jpg",
+            "animated_preview_url": "https://vod-storyboards.twitch.tv/4d41b7e1c509529175fa_hi_im_rav_27115152608_763367208/storyboards/213967334-strip-0.jpg",
+            "thumbnails": [
+                {
+                    "type": "generated",
+                    "url": "https://static-cdn.jtvnw.net/s3_vods/4d41b7e1c509529175fa_hi_im_rav_27115152608_763367208//thumb/thumb213967334-320x240.jpg"
+                }
+            ],
+            "fps": {
+                "chunked": 29.96509387630869
+            },
+            "resolutions": {
+                "chunked": "1280x720"
+            },
+            "channel": {
+                "name": "hi_im_rav",
+                "display_name": "Hi_Im_Rav"
+            },
+            "_links": {
+                "self": "https://api.twitch.tv/kraken/videos/v213967334",
+                "channel": "https://api.twitch.tv/kraken/channels/hi_im_rav"
+            }
+        },
+        {
+            "title": "Hacker in Star Wars BattleFront II",
+            "description": "This guy would not die. Pumped a bunch of rounds into him and his health bar didn't move. EA and Origin need to police their servers.",
+            "description_html": "This guy would not die. Pumped a bunch of rounds into him and his health bar didn\u0026#39;t move. EA and Origin need to police their servers.\u003cbr\u003e",
+            "broadcast_id": 27116130784,
+            "broadcast_type": "highlight",
+            "status": "recorded",
+            "language": "en",
+            "tag_list": "BattleFront, EA, FPS, First Order, Jakku, Origin, Star Wars, Star Wars Battle Front, Star Wars Battle Front II, Star Wars BattleFront, Star Wars BattleFront II, cheat, cheater, cheating, first person shooter, gamer, hack, hacker, hacking, heavy gunner, not very good, obvious hacker, streamer, twitch, veteran, veteran gamer, veterangamersquad",
+            "views": 0,
+            "created_at": "2017-12-30T22:47:47Z",
+            "published_at": "2017-12-30T22:47:47Z",
+            "url": "https://www.twitch.tv/videos/213967306",
+            "_id": "v213967306",
+            "recorded_at": "2017-12-30T06:59:23Z",
+            "game": "Star Wars Battlefront II",
+            "length": 80,
+            "preview": "https://static-cdn.jtvnw.net/s3_vods/0251bd3905e7a39fe6af_vetry85_27116130784_763428344//thumb/thumb213967306-320x240.jpg",
+            "animated_preview_url": "https://vod-storyboards.twitch.tv/0251bd3905e7a39fe6af_vetry85_27116130784_763428344/storyboards/213967306-strip-0.jpg",
+            "thumbnails": [
+                {
+                    "type": "generated",
+                    "url": "https://static-cdn.jtvnw.net/s3_vods/0251bd3905e7a39fe6af_vetry85_27116130784_763428344//thumb/thumb213967306-320x240.jpg"
+                }
+            ],
+            "fps": {
+                "160p30": 29.97909479408644,
+                "360p30": 29.97909479408644,
+                "480p30": 29.97909479408644,
+                "720p60": 59.95710844955197,
+                "chunked": 59.95691914533139
+            },
+            "resolutions": {
+                "160p30": "284x160",
+                "360p30": "640x360",
+                "480p30": "852x480",
+                "720p60": "1280x720",
+                "chunked": "1280x720"
+            },
+            "channel": {
+                "name": "vetry85",
+                "display_name": "VetRy85"
+            },
+            "_links": {
+                "self": "https://api.twitch.tv/kraken/videos/v213967306",
+                "channel": "https://api.twitch.tv/kraken/channels/vetry85"
+            }
+        },
+        {
+            "title": "Xenoblade Chonicles 2 (Part 1)",
+            "description": "Dec. 30, 1027\r\n\r\nxenobloade 2 lets go ANIME",
+            "description_html": "Dec. 30, 1027\u003cbr\u003e\u003cbr\u003exenobloade 2 lets go ANIME\u003cbr\u003e",
+            "broadcast_id": 27121609408,
+            "broadcast_type": "highlight",
+            "status": "recorded",
+            "language": "en",
+            "tag_list": "",
+            "views": 0,
+            "created_at": "2017-12-30T22:47:42Z",
+            "published_at": "2017-12-30T22:47:42Z",
+            "url": "https://www.twitch.tv/videos/213967275",
+            "_id": "v213967275",
+            "recorded_at": "2017-12-30T21:52:55Z",
+            "game": "Xenoblade Chronicles 2",
+            "length": 2760,
+            "preview": "https://static-cdn.jtvnw.net/s3_vods/2af535378051eda22dde_benexe__27121609408_763770758//thumb/thumb213967275-320x240.jpg",
+            "animated_preview_url": "https://vod-storyboards.twitch.tv/2af535378051eda22dde_benexe__27121609408_763770758/storyboards/213967275-strip-0.jpg",
+            "thumbnails": [
+                {
+                    "type": "generated",
+                    "url": "https://static-cdn.jtvnw.net/s3_vods/2af535378051eda22dde_benexe__27121609408_763770758//thumb/thumb213967275-320x240.jpg"
+                }
+            ],
+            "fps": {
+                "160p30": 29.980801857158127,
+                "360p30": 29.980801857158127,
+                "480p30": 29.980801857158127,
+                "720p30": 29.980801857158127,
+                "chunked": 29.98073075822453
+            },
+            "resolutions": {
+                "160p30": "284x160",
+                "360p30": "640x360",
+                "480p30": "852x480",
+                "720p30": "1280x720",
+                "chunked": "1280x720"
+            },
+            "channel": {
+                "name": "benexe_",
+                "display_name": "benexe_"
+            },
+            "_links": {
+                "self": "https://api.twitch.tv/kraken/videos/v213967275",
+                "channel": "https://api.twitch.tv/kraken/channels/benexe_"
+            }
+        }
+    ]
+}

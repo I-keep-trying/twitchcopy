@@ -35,7 +35,13 @@ for (var i = 0; i < data.length; i++) {
                     html += '<h3>Followers: ' + followers + '</h3>';
                     html += '<img src="' + data.stream.preview.large + '"></a></div></div><canvas id="canvas-webgl"></canvas>';
                     document.getElementById('twitchDash').innerHTML += html;
-                }
+            }
+                else {
+                    console.log(data);
+                    let html = '';
+                    html += '<div class="feature-box"><h1>' + data.stream + data._links.self + '</h1>';
+                    document.getElementById('twitchDash').innerHTML += html;
+            }
             },
             function (xhr) {
                 //console.error(xhr);
