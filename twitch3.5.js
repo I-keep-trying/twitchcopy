@@ -1,11 +1,17 @@
-function connect(url, success, error) {
-    return new Promise(function (resolve, reject) { // handle responses
-        for (let i = 0; i < url.length; i++) {
+function connect(success, error) {
+// async await api requests begins
+        function delay(urlArray) {
+            return new Promise(resolve => setTimeout(resolve, 1000));
+        }
+        async function delayedReq(url) {
+            await delay();
+            console.log('await delay ' + url);
             let get = new XMLHttpRequest();
-            get.open("GET", encodeURI(url[i]), true),  
-                get.setRequestHeader('Client-ID', 'iy25o25wjejp9dg0g446t3dnnsu8aw'),    
+            get.open("GET", encodeURI(url[i]), true),
+                get.setRequestHeader('Client-ID', 'iy25o25wjejp9dg0g446t3dnnsu8aw'),
                 get.send();
             get.onload = function () {
+               // return new Promise(function (resolve, reject) { // handle responses
                 if (get.readyState === XMLHttpRequest.DONE && get.status === 200) {
                     resolve(get.response);
                     success(JSON.parse(get.responseText));
@@ -13,19 +19,24 @@ function connect(url, success, error) {
                     reject(Error(get.statusText));
                     error(error);
                 }
-
-            }
+                //});
 
         }
-    });
-}        
-   
-    
+        async function requests(urlArray) {
+            for (const url of urlArray) {
+                await delayedReq(url);
+                console.log('await delayedReq ' + url);
+            }
+        }
+        requests(["https://api.twitch.tv/kraken/videos/top?limit=5&sort=time&language=en",
+            "https://api.twitch.tv/kraken/games/top?limit=5",
+            "https://api.twitch.tv/kraken/streams/featured?limit=5"]);
+
+    }
+}
+
 connect(
-    ["https://api.twitch.tv/kraken/videos/top?limit=5&sort=time&language=en",
-    "https://api.twitch.tv/kraken/games/top?limit=5",
-    "https://api.twitch.tv/kraken/streams/featured?limit=5"],
-    function success (data) {
+    function success(data) {
         if (data.hasOwnProperty("videos") === true) {
             let videos = [];
             videos.push(data);
@@ -83,26 +94,4 @@ connect(
                     document.getElementById('twitchDash').innerHTML += html;
                     return;
      */
-        
-/* setTimeout(function () {
-    setTimeout(function () {
-        setTimeout(function () {
-            printGames(games);
-            console.log('printGames timer')
-        }, 300);
-        printStreams(stream);
-        console.log('printStreams timer')
-    }, 300);
-    printVideos(videos);
-    console.log('printVideos timer')
-}, 300);
- */
-// <img class="video-preview-card__preview-image"
-// class="video-preview-card__preview-image video-preview-card__preview-image--animated" (hover)
-// data-test-selector="preview-image"
-// src="https://static-cdn.jtvnw.net/s3_vods/070ed571c92ea4684335_supermcgamer_26869711168_748027119//thumb/thumb206604334-320x180.jpg"
-// src="https://vod-storyboards.twitch.tv/etc..../...//strip-0.jpg" (hover) >
 
-// <div class="tw-tooltip tw-tooltip--down tw-tooltip--align-center"
-// data-a-target="tw - tooltip - label" role="tooltip">Channel Name</div>
-//

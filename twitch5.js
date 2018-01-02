@@ -10,7 +10,7 @@ function connect() {
         get.open("GET", encodeURI(url[i]), true),
             get.setRequestHeader('Client-ID', 'iy25o25wjejp9dg0g446t3dnnsu8aw'),
             get.send();
-        get.onreadystatechange = function () {
+        get.onload = function () {
             let videos = [], games = [], stream = [];
             if (get.status >= 400) {
                 let html = '';
@@ -21,13 +21,22 @@ function connect() {
             if (get.readyState === 4) {
                 let data = JSON.parse(get.responseText);
                 if (data.hasOwnProperty("_links") === true) {
-                    games.push(data);
-                    console.log(data);
+                    videos.push(data);
+                    var options = {
+                        width: 300,
+                        height: 300,
+                        channel: "<channel ID>",
+                        video: "<video ID>",
+                        collection: "<collection ID>",
+                        };
+                        var player = new Twitch.Player("<player div ID>", options);
+                        player.setVolume(0);
+                        console.log(data);
                 } else if (data.hasOwnProperty("stream") === true) {
-                    games.push(data);
+                    stream.push(data);
                     let views = (data.stream.channel.views).toLocaleString("en");
                     let followers = (data.stream.channel.followers).toLocaleString("en");
-                    html += '<div id="' + channels[i] + '" class="feature-box"><a href="';
+                    html += '<div id="' + data.channel.display_name + '" class="feature-box"><a href="';
                     html += data.stream.channel.url + '" target="_blank"><ul class="box-item"><li><img src="' + data.stream.channel.logo + '"></li></ul>';
                     html += '<ul class="box-item"><li><h1>' + data.stream.channel.display_name + '</h1></li>';
                     html += '<li><h2>' + data.stream.game + ' - ' + data.stream.stream_type + '!</h2></li>';
@@ -36,10 +45,10 @@ function connect() {
                     html += '<li><h3>Followers: ' + followers + '</h3></li></ul></div></div>';
                     html += '<img class="feature-box" src="' + data.stream.preview.large + '"></a></div><canvas id="canvas-webgl"></canvas>';
                     document.getElementById('twitchDash').innerHTML += html;
-                } else if (data.hasOwnProperty("stream.channel") === false) {
+/*                 } else if (data.hasOwnProperty("stream.channel") === false) {
                     html += '<div class="feature-box offline">' + channels[i] + ' is Offline</div>';
                     document.getElementById('twitchDash').innerHTML += html;
-                } else if (data.hasOwnProperty("_total") === true) {
+ */                } else if (data.hasOwnProperty("_total") === true) {
                     games.push(data);
                     console.log(data);
                 }

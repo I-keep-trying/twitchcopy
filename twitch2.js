@@ -1,22 +1,23 @@
-function loadJSON(path, success, error) {
+function loadJSON(
+	path, success, error
+) {
 	let xhr = new XMLHttpRequest();
-	xhr.onreadystatechange = function () {
-		if (xhr.readyState === XMLHttpRequest.DONE) {
-			if (xhr.status === 200) {
-				if (success)
+	xhr.open("GET", path, true);
+	xhr.send();
+	xhr.onload = function () {
+		if (xhr.readyState === XMLHttpRequest.DONE && xhr.status === 200) {
 					success(JSON.parse(xhr.responseText));
 			} else {
-				if (error)
 					error(xhr);
 			}
 		}
 	};
-	xhr.open("GET", path, true);
-	xhr.send();
-}
+
 
 loadJSON('./x.json',
-	function (data) {
+	function (
+		data
+	) {
 		console.log(data);
 		if (data.stream && data.stream.game) {
 			let html = '';
