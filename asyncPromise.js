@@ -10,7 +10,7 @@ test2; */
 
 //(function(){
 
-function delay(array) {
+/* function delay(array) {
     return new Promise(resolve => setTimeout(resolve, 300));
 }             
     async function delayedLog(item) {
@@ -26,7 +26,7 @@ function delay(array) {
     }
 
     processArray([1, 2, 3]);
-
+ */
 //})();
 
 // https://blog.lavrton.com/javascript-loops-how-to-handle-async-await-6252dd3c795
@@ -64,7 +64,7 @@ function job2() {
     });
 }
 
-async function test() {
+/* async function test() {
     for (let i = 0; i < 2; i++) {
         console.log('Before await for ', i);
         let result = await Promise.resolve(i);
@@ -74,4 +74,4 @@ async function test() {
 
 test().then(_ => console.log('After test() resolved'));
 
-console.log('After calling test');
+console.log('After calling test'); */

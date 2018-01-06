@@ -1,50 +1,47 @@
-function loadJSON(
-    path, success, error
-) {
-    let promise = new Promise(function (resolve, reject) {
-        let xhr = new XMLHttpRequest();
-        xhr.onload = function () {
-            if (xhr.readyState === XMLHttpRequest.DONE && xhr.status === 200) {
-                resolve(xhr.response);
-                success(JSON.parse(xhr.responseText));
-            } else {
-                reject(Error(xhr.statusText));
-                error(xhr);
+function connect(url, success, error) {
+    return new Promise(function (resolve, reject) { // handle responses
+        for (let i = 0; i < url.length; i++) {
+            let get = new XMLHttpRequest();
+            get.open("GET", encodeURI(url[i]), true),
+                get.setRequestHeader('Client-ID', 'iy25o25wjejp9dg0g446t3dnnsu8aw'),
+                get.send();
+            get.onload = function () {
+                if (get.readyState === XMLHttpRequest.DONE && get.status === 200) {
+                    resolve(get.response);
+                    success(JSON.parse(get.responseText));
+                } else {
+                    reject(Error(get.statusText));
+                    error(error);
+                }
+
             }
+
         }
-        xhr.open("GET", path, true);
-        xhr.send();
     });
-} 
+}
 
-    loadJSON('./x.json',
-        function (data) {
-            console.log(data);
-            if (data.stream && data.stream.game) {
-                let html = '';
-                let views = (data.stream.channel.views).toLocaleString("en");
-                let followers = (data.stream.channel.followers).toLocaleString("en");
-                html += '<div id="' + data.stream.channel.display_name + '" class="feature-box"><a href="';
-                html += data.stream.channel.url + '" target="_blank"><ul class="box-item"><li><img src="' + data.stream.channel.logo + '"></li></ul>';
-                html += '<ul class="box-item"><li><h1>' + data.stream.channel.display_name + '</h1></li>';
-                html += '<li><h2>' + data.stream.game + ' - ' + data.stream.stream_type + '!</h2></li>';
-                html += '<li><h3>' + data.stream.channel.status + '</h3></li>';
-                html += '<li><h3>Views: ' + views + '</h3></li>';
-                html += '<li><h3>Followers: ' + followers + '</h3></li></ul></div></div>';
-                html += '<img class="feature-box" src="' + data.stream.preview.large + '"></a></div><canvas id="canvas-webgl"></canvas>';
-                document.getElementById('twitchDash').innerHTML += html;
-            }
-            else {
-                html += '<div class="feature-box offline">' + channels[i] + ' is Offline</div>';
-                document.getElementById('twitchDash').innerHTML += html;
-            }
 
-        },
-        function (xhr) {
-            console.error(xhr);
-            let html = '';
-            html += '<div class="feature-box offline">' + channels[i] + ' is Offline</div>';
-            document.getElementById('twitchDash').innerHTML += html;
+connect(
+    ["https://api.twitch.tv/kraken/videos/top?limit=5&sort=time&language=en",
+        "https://api.twitch.tv/kraken/games/top?limit=5",
+        "https://api.twitch.tv/kraken/streams/featured?limit=5"],
+    function success(data) {
+        if (data.hasOwnProperty("videos") === true) {
+            let videos = [];
+            videos.push(data);
+            console.log(videos);
+        } else if (data.hasOwnProperty("top") === true) {
+            let games = [];
+            games.push(data);
+            console.log(games);
+        } else if (data.hasOwnProperty("featured") === true) {
+            let stream = [];
+            stream.push(data);
+            console.log(stream);
+        }
+    },
+    function error(error) {
 
-        },
-    );
+    }
+
+);

@@ -180,3 +180,25 @@ button:hover {
   border-radius: 8px;
   text-shadow: $hoverText;
 }
+
+/* animated thumbnail from twitch forum */
+
+div {
+	background: url(https://vod-storyboards.twitch.tv/2db359bbba35e8efb6cc_chronobodi_27123814288_763908563/storyboards/213968227-strip-0.jpg) no-repeat;
+}
+
+div:hover {
+	animation-name: animate;
+	animation-duration: 5s;
+	animation-timing-function: steps(9); // 10 Images (0 index)
+	animation-iteration-count: infinite;
+}
+
+@keyframes animate {
+  from {
+    background-position: top;
+  }
+  to { 
+    background-position: bottom;
+  }
+}
