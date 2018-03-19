@@ -2,6 +2,7 @@ node_modules
 twitchNode.js
 data.json
 axios.js
+asyncPromise.js
 .vscode
 new 2.txt
 objects.js
@@ -9,11 +10,20 @@ package-lock.json
 package.json
 module.js
 module2.js
-twitch1.js
+null.json
+objects.js
+top5games.json
+top5streams.json
+top5videos.json
 twitch2.js
 twitch2.5.js
+twitch3.js
 twitch3.5.js
 twitch4.js
 twitch5.js
-
-
+keys.js
+new 2.txt
+videofeed.json
+videoframe.js
+y.json
+z.json

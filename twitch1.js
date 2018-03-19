@@ -1,4 +1,6 @@
 // UPDATED 12/17/2017 IT WORKS!!!
+const keys = require('./keys')
+
 let channelArray = ["ESL_SC2", "OgamingSC2", "asmodeegames", "vgbootcamp", "rocketleague", "epicenter_en1"];
 function connect(channels) {
     let out = [];
@@ -9,7 +11,7 @@ function connect(channels) {
         var url = "https://api.twitch.tv/kraken/streams/" + channels[i];
         var get = new XMLHttpRequest();
         get.open("GET", encodeURI(url), true),
-            get.setRequestHeader('Client-ID', 'iy25o25wjejp9dg0g446t3dnnsu8aw'),
+            get.setRequestHeader('Client-ID', keys.id),
             get.send();
         get.onreadystatechange = function () {
             if (get.readyState === 4 && get.status === 200) {

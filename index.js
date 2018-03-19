@@ -1,17 +1,17 @@
-var request = require('request'); 
+var request = require('request')
+const keys = require('./keys')
 
 var options = {
   url: 'https://api.twitch.tv/helix/streams?first=5',
   headers: {
-    'Client-ID': 'iy25o25wjejp9dg0g446t3dnnsu8aw'
-  }
-};
-
-function callback(error, response, body) {
-  if (!error && response.statusCode === 200) {
-    var info = JSON.parse(body);
-    
+    'Client-ID': keys.id
   }
 }
 
-request(options, callback);
+function callback(error, response, body) {
+  if (!error && response.statusCode === 200) {
+    var info = JSON.parse(body)
+  }
+}
+
+request(options, callback)
